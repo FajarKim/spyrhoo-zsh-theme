@@ -4,7 +4,7 @@
 Spyrhoo Zsh Theme adalah tema prompt dengan tampilan yang sederhana untuk [Oh My Zsh](https://github.com/ohmyzsh/ohmyzsh).
 
 # Petunjuk Penginstalan
-Instal terlebih dahulu paket `git`, kemudian dilanjutkan dengan menginstal [Oh My Zsh](https://github.com/ohmyzsh/ohmyzsh#basic-installation) (apabila belum diinstal). Selanjutnya, kalian ketikkan:
+Instal terlebih dahulu paket `git`, kemudian dilanjutkan dengan menginstal [Oh My Zsh](https://github.com/ohmyzsh/ohmyzsh#basic-installation) (apabila belum diinstal). Selanjutnya, Anda ketikkan:
 <table>
     <tr>
         <td><div align="center"><b>Metode</b></div></td>
