@@ -15,17 +15,17 @@ HOME="${HOME:-$(eval echo ~$USER)}"
 # Default settings
 SPYRHOO="${SPYRHOO:-$HOME/.spyrhoo-zsh-theme}"
 
-function _spy_upgrade_current_epoch {
+function _spy_upgrade_current_epoch() {
   local sec=${EPOCHSECONDS-}
   test $sec || printf -v sec '%(%s)T' -1 2>/dev/null || sec=$(command date +%s)
   echo $((sec / 60 / 60 / 24))
 }
 
-function _spy_upgrade_update_timestamp {
+function _spy_upgrade_update_timestamp() {
   echo "LAST_EPOCH=$(_spy_upgrade_current_epoch)" > $SPYRHOO/.cache/.lock-update
 }
 
-function _spy_upgrade_check {
+function _spy_upgrade_check() {
   if test ! -f $SPYRHOO/.cache/.lock-update; then
     # create $SPYRHOO/.cache/.lock-update
     _spy_upgrade_update_timestamp
@@ -48,9 +48,9 @@ function _spy_upgrade_check {
 
   # update $SPYRHOO/.cache/.lock-update
   _spy_upgrade_update_timestamp
-  if [ $DISABLE_UPDATE_PROMPT == true ] ||
+  if [[ $DISABLE_UPDATE_PROMPT == true ]] ||
        { read -p '[Spyrhoo] Would you like to check for updates? [Y/n]: ' line &&
-           [ $line == Y* || $line == y* || ! $line ]; }
+           [[ $line == Y* || $line == y* || ! $line ]]; }
   then
     source "$SPYRHOO"/tools/upgrade.sh
   fi
