@@ -207,4 +207,8 @@ main() {
   cd - >/dev/null 2>&1
 }
 
+# Cancel upgrade if the current user doesn't have write permissions for the
+# spyrhoo-zsh-theme directory.
+test -w "$SPYRHOO" || return 0
+
 main $@

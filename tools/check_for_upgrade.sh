@@ -49,13 +49,13 @@ function _spy_upgrade_check() {
   # update $SPYRHOO/lib/.lock-update
   _spy_upgrade_update_timestamp
   # You can change the settings by creating another file in
-  # the 'lib' directory with the file name 'update-prompt'.
+  # the 'lib' directory with the file name 'update-settings'.
   # Then fill the file with text:
   #   DISABLE_UPDATE_PROMPT=true
   # or
   #   DISABLE_UPDATE_PROMPT=false
   local DISABLE_UPDATE_PROMPT
-  test ! -f $SPYRHOO/lib/update-prompt || source $SPYRHOO/lib/update-prompt
+  test ! -f $SPYRHOO/lib/update-settings || source $SPYRHOO/lib/update-settings
   if test ! $DISABLE_UPDATE_PROMPT; then
     DISABLE_UPDATE_PROMPT=false
   fi
@@ -66,12 +66,5 @@ function _spy_upgrade_check() {
     source "$SPYRHOO"/tools/upgrade.sh
   fi
 }
-
-# Cancel upgrade if the current user doesn't have write permissions for the
-# spyrhoo-zsh-theme directory.
-test -w "$SPYRHOO" || return 0
-
-# Cancel upgrade if git is unavailable on the system
-type -P git &>/dev/null || return 0
 
 _spy_upgrade_check
