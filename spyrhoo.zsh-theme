@@ -138,5 +138,7 @@ $PR_LIGHT_GREEN%_$PR_BLUE)$PR_SHIFT_IN$PR_HBAR$PR_SHIFT_OUT\
 $PR_CYAN$PR_SHIFT_IN$PR_HBAR$PR_SHIFT_OUT$PR_NO_COLOUR '
 }
 
-bash tools/check_for_upgrade.sh
+if test -d $HOME/.spyrhoo-zsh-theme && test -w $HOME/.spyrhoo-zsh-theme && test -x $HOME/.spyrhoo-zsh-theme; then
+  bash $HOME/.spyrhoo-zsh-theme/tools/check_for_upgrade.sh
+fi
 _setprompt
