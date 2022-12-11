@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/zsh
 #
 # Make sure important variables exist if not already defined
 #
