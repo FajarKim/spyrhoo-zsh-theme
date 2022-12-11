@@ -22,18 +22,18 @@ function _spy_upgrade_current_epoch() {
 }
 
 function _spy_upgrade_update_timestamp() {
-  echo "LAST_EPOCH=$(_spy_upgrade_current_epoch)" > $SPYRHOO/.cache/.lock-update
+  echo "LAST_EPOCH=$(_spy_upgrade_current_epoch)" > $SPYRHOO/lib/.lock-update
 }
 
 function _spy_upgrade_check() {
-  if test ! -f $SPYRHOO/.cache/.lock-update; then
-    # create $SPYRHOO/.cache/.lock-update
+  if test ! -f $SPYRHOO/lib/.lock-update; then
+    # create $SPYRHOO/lib/.lock-update
     _spy_upgrade_update_timestamp
     return 0
   fi
 
   local LAST_EPOCH
-  . $SPYRHOO/.cache/.lock-update
+  . $SPYRHOO/lib/.lock-update
   if test ! $LAST_EPOCH; then
     _spy_upgrade_update_timestamp
     return 0
@@ -46,7 +46,7 @@ function _spy_upgrade_check() {
     return 0
   fi
 
-  # update $SPYRHOO/.cache/.lock-update
+  # update $SPYRHOO/lib/.lock-update
   _spy_upgrade_update_timestamp
   if [[ $DISABLE_UPDATE_PROMPT == true ]] ||
        { read -p '[Spyrhoo] Would you like to check for updates? [Y/n]: ' line &&
@@ -64,19 +64,16 @@ test -w "$SPYRHOO" || return 0
 type -P git &>/dev/null || return 0
 
 # You can change the settings by creating another file in
-# the '.cache' directory with the file name 'update-prompt'.
+# the 'lib' directory with the file name 'update-prompt'.
 # Then fill the file with text:
 #   DISABLE_UPDATE_PROMPT=true
 # or
 #   DISABLE_UPDATE_PROMPT=false
 #
 local DISABLE_UPDATE_PROMPT
-test ! -f $SPYRHOO/.cache/update-prompt || . $SPYRHOO/.cache/update-prompt
+test ! -f $SPYRHOO/lib/update-prompt || . $SPYRHOO/lib/update-prompt
 if test ! $DISABLE_UPDATE_PROMPT; then
   DISABLE_UPDATE_PROMPT=false
 fi
 
-if command mkdir "$SPYRHOO/.cache/update.lock" 2>/dev/null; then
-  _spy_upgrade_check
-  command rmdir "$SPYRHOO"/.cache/update.lock
-fi
+_spy_upgrade_check

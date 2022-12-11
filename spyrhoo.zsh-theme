@@ -139,7 +139,7 @@ $PR_CYAN$PR_SHIFT_IN$PR_HBAR$PR_SHIFT_OUT$PR_NO_COLOUR '
 }
 
 # You can change the settings by creating another file in
-# the '.cache' directory with the file name 'update-prompt'.
+# the 'lib' directory with the file name 'update-prompt'.
 # Then fill the file with text:
 #   DISABLE_UPDATE_PROMPT=true
 # or
