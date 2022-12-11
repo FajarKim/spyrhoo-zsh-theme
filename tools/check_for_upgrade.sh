@@ -22,7 +22,7 @@ function _spy_upgrade_current_epoch() {
 }
 
 function _spy_upgrade_update_timestamp() {
-  echo "LAST_EPOCH=$(_spy_upgrade_current_epoch)" > $SPYRHOO/lib/.lock-update
+  echo "LAST_EPOCH=$(_spy_upgrade_current_epoch)" >| $SPYRHOO/lib/.lock-update
 }
 
 function _spy_upgrade_check() {
