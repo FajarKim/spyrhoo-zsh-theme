@@ -22,7 +22,7 @@ function _spy_upgrade_current_epoch {
 }
 
 function _spy_upgrade_update_timestamp {
-  echo "LAST_EPOCH=$(_spy_upgrade_current_epoch)" >| $SPYRHOO/.cache/.lock-update
+  echo "LAST_EPOCH=$(_spy_upgrade_current_epoch)" > $SPYRHOO/.cache/.lock-update
 }
 
 function _spy_upgrade_check {
@@ -48,9 +48,9 @@ function _spy_upgrade_check {
 
   # update $SPYRHOO/.cache/.lock-update
   _spy_upgrade_update_timestamp
-  if [[ $DISABLE_UPDATE_PROMPT == true ]] ||
+  if [ $DISABLE_UPDATE_PROMPT == true ] ||
        { read -p '[Spyrhoo] Would you like to check for updates? [Y/n]: ' line &&
-           [[ $line == Y* || $line == y* || ! $line ]]; }
+           [ $line == Y* || $line == y* || ! $line ]; }
   then
     source "$SPYRHOO"/tools/upgrade.sh
   fi
@@ -73,7 +73,7 @@ type -P git &>/dev/null || return 0
 local DISABLE_UPDATE_PROMPT
 test ! -f $SPYRHOO/.cache/update-prompt || . $SPYRHOO/.cache/update-prompt
 if test ! $DISABLE_UPDATE_PROMPT; then
-  DISABLE_UPDATE_PROMPT=true
+  DISABLE_UPDATE_PROMPT=false
 fi
 
 if command mkdir "$SPYRHOO/.cache/update.lock" 2>/dev/null; then
