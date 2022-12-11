@@ -1,47 +1,40 @@
-![Spyrhoo Logo](https://raw.githubusercontent.com/FajarKim/spyrhoo-zsh-theme/master/images/logo.png)
+<h1 align="center">
+    <a href="https://github.com/FajarKim">
+       <img src="https://avatars.githubusercontent.com/u/86386385" width="60">
+       <p>Fajar Kim</p>
+    </a>
+</h1>
 
-# Spyrhoo Zsh Theme
-Spyrhoo Zsh Theme adalah tema prompt dengan tampilan yang sederhana untuk [Oh My Zsh](https://github.com/ohmyzsh/ohmyzsh).
+Hello everyone 👋🏻! Let me introduce my self. My name is Fajar Kim. I live in Garut, West Java, Indonesia 🇮🇩. I am a Moderator at [Brainly.co.id](https://brainly.co.id/). Actually, I'm still learning in terms of programming. The thing I like most about programming is encrypting multiple programming languages. 
 
-# Petunjuk Penginstalan
-Instal terlebih dahulu paket `git`, kemudian dilanjutkan dengan menginstal [Oh My Zsh](https://github.com/ohmyzsh/ohmyzsh#basic-installation) (apabila belum diinstal). Selanjutnya, Anda ketikkan:
+# Contact Me
+Don't forget to follow the account below and if you have any questions, don't hesitate to ask.
 <table>
     <tr>
-        <td><div align="center"><b>Metode</b></div></td>
-        <td><div align="center"><b>Perintah</b></div></td>
+        <td> <a href="https://www.facebook.com/profile.php?id=100071979099290"><img src="https://raw.githubusercontent.com/FajarKim/FajarKim/master/images/facebook_logo.png" width="14"> Facebook</a></td>
+        <td> <a href="https://www.instagram.com/fajarkim_"><img src="https://raw.githubusercontent.com/FajarKim/FajarKim/master/images/instagram_logo.png" width="14"> Instagram</a></td>
     </tr>
     <tr>
-        <td><div align="center"><b>curl</b></div></td>
-        <td><div align="left"><code>bash -c "$(curl -fsSL https://raw.githubusercontent.com/FajarKim/spyrhoo-zsh-theme/master/tools/install.sh)"</code></div></td>
+        <td> <a href="https://wa.me/6285659850910?text=Hi"><img src="https://raw.githubusercontent.com/FajarKim/FajarKim/master/images/whatsapp_logo.png" width="14"> WhatsApp</a></td>
+        <td> <a href="https://t.me/FajarThea"><img src="https://raw.githubusercontent.com/FajarKim/FajarKim/master/images/telegram_logo.png" width="14"> Telegram</a></td>
     </tr>
     <tr>
-        <td><div align="center"><b>wget</b></div></td>
-        <td><div align="left"><code>bash -c "$(wget -qO- https://raw.githubusercontent.com/FajarKim/spyrhoo-zsh-theme/master/tools/install.sh)"</code></div></td>
+        <td> <a href="https://www.twitter.com/fajarkim_"><img src="https://raw.githubusercontent.com/FajarKim/FajarKim/master/images/twitter_logo.png" width="14"> Twitter</a></td>
+        <td> <a href="https://brainly.co.id/profil/FajarKim-32153154"><img src="https://raw.githubusercontent.com/FajarKim/FajarKim/master/images/brainly_logo.png" width="14"> Brainly</a></td>
     </tr>
     <tr>
-        <td><div align="center"><b>fetch</b></div></td>
-        <td><div align="left"><code>bash -c "$(fetch -o - https://raw.githubusercontent.com/FajarKim/spyrhoo-zsh-theme/master/tools/install.sh)"</code></div></td>
+        <td> <a href="mailto:fajarrkim@gmail.com"><img src="https://raw.githubusercontent.com/FajarKim/FajarKim/master/images/gmail_logo.png" width="14"> E - Mail</a></td>
     </tr>
-<table>
+</table>
 
-Sebagai alternatif, Anda dapat mengunduh skrip `install.sh` terlebih dahulu dan menjalankannya setelah menginstalnya:
-```text
-$ wget https://raw.githubusercontent.com/FajarKim/spyrhoo-zsh-theme/master/tools/install.sh
-$ bash install.sh
-```
-
-Apabila berhasil diinstal, selanjutnya jalankan perintah `zsh`. Kemudian, jalankan perintah `omz theme set spyrhoo`.
-
-# Tangkapan Layar
-![Tangkapan Layar](https://raw.githubusercontent.com/FajarKim/spyrhoo-zsh-theme/master/images/screenshots.png)
-
-# Kontak
-Silahkan hubungi kontak saya dibawah ini jika ada masalah atau pertanyaan mengenai tema ini. Jangan lupa untuk follow ya!
+<hr size="0.01px">
 <div align="center">
-    <a href="https://www.facebook.com/profile.php?id=100071979099290"><img src="https://raw.githubusercontent.com/FajarKim/FajarKim/master/images/facebook_logo.png" width="35"></a>
-    <a href="https://www.instagram.com/fajarkim_"><img src="https://raw.githubusercontent.com/FajarKim/FajarKim/master/images/instagram_logo.png" width="35"></a>
-    <a href="https://wa.me/6285659850910?text=Hi"><img src="https://raw.githubusercontent.com/FajarKim/FajarKim/master/images/whatsapp_logo.png" width="35"></a>
-    <a href="https://t.me/FajarThea"><img src="https://raw.githubusercontent.com/FajarKim/FajarKim/master/images/telegram_logo.png" width="35"></a>
-    <a href="https://www.twitter.com/fajarkim_"><img src="https://raw.githubusercontent.com/FajarKim/FajarKim/master/images/twitter_logo.png" width="35"></a>
-    <a href="mailto:fajarrkim@gmail.com"><img src="https://raw.githubusercontent.com/FajarKim/FajarKim/master/images/gmail_logo.png" width="35"></a>
+    <p>Don't forget sponsor me</p>
+    <a href="https://github.com/sponsors/FajarKim/"><img src="https://raw.githubusercontent.com/FajarKim/FajarKim/master/images/sponsor_button.png" width="150">
+        <div align="center">
+             <img src="https://raw.githubusercontent.com/FajarKim/FajarKim/master/images/tap_button_click.gif" width="50">
+             <img src="https://raw.githubusercontent.com/FajarKim/FajarKim/master/images/tap_button_click.gif" width="50">
+             <img src="https://raw.githubusercontent.com/FajarKim/FajarKim/master/images/tap_button_click.gif" width="50">
+        </div>
+    </a>
 </div>
