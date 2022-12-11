@@ -63,6 +63,15 @@ function _spy_upgrade_check {
 # Cancel upgrade if git is unavailable on the system
 type -P git &>/dev/null || return 0
 
+# You can change the settings by creating another file in
+# the '.cache' directory with the file name 'update-prompt'.
+# Then fill the file with text:
+#   DISABLE_UPDATE_PROMPT=true
+# or
+#   DISABLE_UPDATE_PROMPT=false
+#
+[[ ! -f $SPYRHOO/.cache/update-prompt ]] || . $SPYRHOO/.cache/update-prompt
+
 if command mkdir "$SPYRHOO/.cache/update.lock" 2>/dev/null; then
   _spy_upgrade_check
   command rmdir "$SPYRHOO"/.cache/update.lock

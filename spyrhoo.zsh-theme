@@ -138,7 +138,15 @@ $PR_LIGHT_GREEN%_$PR_BLUE)$PR_SHIFT_IN$PR_HBAR$PR_SHIFT_OUT\
 $PR_CYAN$PR_SHIFT_IN$PR_HBAR$PR_SHIFT_OUT$PR_NO_COLOUR '
 }
 
+# You can change the settings by creating another file in
+# the '.cache' directory with the file name 'update-prompt'.
+# Then fill the file with text:
+#   DISABLE_UPDATE_PROMPT=true
+# or
+#   DISABLE_UPDATE_PROMPT=false
+#
 if test -d $HOME/.spyrhoo-zsh-theme && test -w $HOME/.spyrhoo-zsh-theme && test -x $HOME/.spyrhoo-zsh-theme; then
   bash $HOME/.spyrhoo-zsh-theme/tools/check_for_upgrade.sh
 fi
+
 _setprompt
