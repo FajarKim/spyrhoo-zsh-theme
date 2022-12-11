@@ -33,7 +33,7 @@ function _spy_upgrade_check {
   fi
 
   local LAST_EPOCH
-  . ~/.lock-update
+  . $SPYRHOO/.cache/.lock-update
   if [[ ! $LAST_EPOCH ]]; then
     _spy_upgrade_update_timestamp
     return 0
@@ -49,7 +49,7 @@ function _spy_upgrade_check {
   # update ~/.lock-update
   _spy_upgrade_update_timestamp
   if [[ $DISABLE_UPDATE_PROMPT == true ]] ||
-       { read -p '[Oh My Bash] Would you like to check for updates? [Y/n]: ' line &&
+       { read -p '[Spyrhoo] Would you like to check for updates? [Y/n]: ' line &&
            [[ $line == Y* || $line == y* || ! $line ]]; }
   then
     source "$SPYRHOO"/tools/upgrade.sh
