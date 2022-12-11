@@ -28,7 +28,7 @@ HOME="${HOME:-$(eval echo ~$USER)}"
 # Default settings
 ZSH="${ZSH:-$HOME/.oh-my-zsh}"
 ZSH_CUSTOM="${ZSH_CUSTOM:-$ZSH/custom}"
-THEME="${THEME:-$HOME/.spyrhoo-zsh-theme}"
+SPYRHOO="${SPYRHOO:-$HOME/.spyrhoo-zsh-theme}"
 REPO=${REPO:-FajarKim/spyrhoo-zsh-theme}
 REMOTE=${REMOTE:-https://github.com/${REPO}.git}
 BRANCH=${BRANCH:-master}
@@ -194,7 +194,7 @@ install_theme() {
   fi
 
   # Manual clone with git config options to support git < v1.7.2
-  git init --quiet "$THEME" && cd "$THEME" \
+  git init --quiet "$SPYRHOO" && cd "$SPYRHOO" \
   && git config core.eol lf \
   && git config core.autocrlf false \
   && git config fsck.zeroPaddedFilemode ignore \
@@ -205,9 +205,9 @@ install_theme() {
   && git remote add origin "$REMOTE" \
   && git fetch --depth=1 origin \
   && git checkout -b "$BRANCH" "origin/$BRANCH" || {
-    test ! -d "$THEME" || {
+    test ! -d "$SPYRHOO" || {
       cd - >/dev/null 2>&1
-      rm -rf "$THEME" >/dev/null 2>&1 || rm -rf "$THEME" >/dev/null 2>&1
+      rm -rf "$SPYRHOO" >/dev/null 2>&1 || rm -rf "$SPYRHOO" >/dev/null 2>&1
     }
     fmt_info "git clone of spyrhoo-zsh-theme repo failed"
     exit 1
@@ -220,16 +220,16 @@ install_theme() {
 
 setup_theme() {
   # Checking file 'spyrhoo.zsh-theme'
-  test -x "$THEME/spyrhoo.zsh-theme" || test -f "$THEME/spyrhoo.zsh-theme" || {
-    fmt_info "No such file spyrhoo.zsh-theme in directory $THEME"
+  test -x "$SPYRHOO/spyrhoo.zsh-theme" || test -f "$SPYRHOO/spyrhoo.zsh-theme" || {
+    fmt_info "No such file spyrhoo.zsh-theme in directory $SPYRHOO"
     exit 1
   }
 
   # Creating symbolic links
   echo "Create symbolic link..."
 
-  ln -s "$THEME/spyrhoo.zsh-theme" "$ZSH_CUSTOM/themes/spyrhoo.zsh-theme" >/dev/null 2>&1 || {
-    fmt_info "cannot create symbolic link $THEME/spyrhoo.zsh-theme as $ZSH_CUSTOM/themes/spyrhoo.zsh-theme"
+  ln -s "$SPYRHOO/spyrhoo.zsh-theme" "$ZSH_CUSTOM/themes/spyrhoo.zsh-theme" >/dev/null 2>&1 || {
+    fmt_info "cannot create symbolic link $SPYRHOO/spyrhoo.zsh-theme as $ZSH_CUSTOM/themes/spyrhoo.zsh-theme"
     exit 1
   }
   fmt_info "create symbolic link success"
@@ -254,9 +254,9 @@ print_success() {
 main() {
   setup_color
 
-  # checking folder $THEME
-  if test -d "$THEME"; then
-    fmt_info "The folder '$THEME' already exists."
+  # checking folder $SPYRHOO
+  if test -d "$SPYRHOO"; then
+    fmt_info "The folder '$SPYRHOO' already exists."
     echo "You'll need to remove it if you want to reinstall."
     exit 1
   fi

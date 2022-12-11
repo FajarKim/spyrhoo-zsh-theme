@@ -40,7 +40,7 @@ function _spy_upgrade_check {
   fi
 
   # Default to the old behavior
-  local epoch_expires=${UPDATE_OSH_DAYS:-13}
+  local epoch_expires=${UPDATE_SPYRHOO_DAYS:-30}
   local epoch_elapsed=$(($(_spy_upgrade_current_epoch) - LAST_EPOCH))
   if ((epoch_elapsed <= epoch_expires)); then
     return 0
