@@ -146,7 +146,7 @@ $PR_CYAN$PR_SHIFT_IN$PR_HBAR$PR_SHIFT_OUT$PR_NO_COLOUR '
 #   DISABLE_UPDATE_PROMPT=false
 #
 if test -d $HOME/.spyrhoo-zsh-theme && test -w $HOME/.spyrhoo-zsh-theme && test -x $HOME/.spyrhoo-zsh-theme; then
-  bash $HOME/.spyrhoo-zsh-theme/tools/check_for_upgrade.sh
+  source $HOME/.spyrhoo-zsh-theme/tools/check_for_upgrade.sh
 fi
 
 _setprompt
