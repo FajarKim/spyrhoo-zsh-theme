@@ -1,8 +1,4 @@
 ![Spyrhoo Logo](https://raw.githubusercontent.com/FajarKim/spyrhoo-zsh-theme/master/images/logo.png)
-
-# Spyrhoo Zsh Theme
-😎 Make your [Oh My Zsh](https://github.com/ohmyzsh/ohmyzsh) prompt even cooler and simpler with the Spyrhoo Zsh Theme.
-
 <div align="center">
     <a href="https://github.com/FajarKim/spyrhoo-zsh-theme"><img src="https://img.shields.io/github/languages/code-size/FajarKim/spyrhoo-zsh-theme?label=Spyrhoo%20Zsh%20Theme&style=plastic&logo=github&color=blue" alt="Spyrhoo Zsh Theme"></a>
     <a href="https://github.com/FajarKim/spyrhoo-zsh-theme/stargazers/"><img src="https://img.shields.io/github/stars/FajarKim/spyrhoo-zsh-theme?label=Star&style=plastic&color=red" alt="Stars"></a>
@@ -14,6 +10,9 @@
     <a href="https://github.com/FajarKim/spyrhoo-zsh-theme/pulls?q=is%3Apr+is%3Aclosed/"><img src="https://img.shields.io/github/issues-pr-closed/FajarKim/spyrhoo-zsh-theme?&label=Pull%20requests&style=plastic&color=orange" alt="Pull-requests"></a>
     <a href=""><img src="https://img.shields.io/github/license/FajarKim/spyrhoo-zsh-theme?label=License&style=plastic&color=01ffc4" alt="License"></a>
 </div>
+
+# Spyrhoo Zsh Theme
+😎 Make your [Oh My Zsh](https://github.com/ohmyzsh/ohmyzsh) prompt even cooler and simpler with the Spyrhoo Zsh Theme.
 
 <details>
 <summary>Show Translations</summary>
@@ -59,15 +58,15 @@ If successfully installed, then run the `zsh` command.  Then, run the command `o
 # Contact
 Please contact my contact below if there are problems or questions regarding this theme.  Don't forget to follow!
 <div align="center">
-    <a href="https://www.facebook.com/profile.php?id=100071979099290"><img src="https://raw.githubusercontent.com/FajarKim/FajarKim/master/images/facebook_logo.png" width="35"></a>
+    <a href="https://www.facebook.com/profile.php?id=100071979099290"><img src="https://raw.githubusercontent.com/FajarKim/FajarKim/master/images/facebook_logo.png" alt="Facebook" width="35"></a>
     &ensp;
-    <a href="https://www.instagram.com/fajarkim_"><img src="https://raw.githubusercontent.com/FajarKim/FajarKim/master/images/instagram_logo.png" width="35"></a>
+    <a href="https://www.instagram.com/fajarkim_"><img src="https://raw.githubusercontent.com/FajarKim/FajarKim/master/images/instagram_logo.png" alt="Instagram" width="35"></a>
     &ensp;
-    <a href="https://wa.me/6285659850910?text=Hi"><img src="https://raw.githubusercontent.com/FajarKim/FajarKim/master/images/whatsapp_logo.png" width="35"></a>
+    <a href="https://wa.me/6285659850910?text=Hi"><img src="https://raw.githubusercontent.com/FajarKim/FajarKim/master/images/whatsapp_logo.png" alt="WhatsApp" width="35"></a>
     &ensp;
-    <a href="https://t.me/FajarThea"><img src="https://raw.githubusercontent.com/FajarKim/FajarKim/master/images/telegram_logo.png" width="35"></a>
+    <a href="https://t.me/FajarThea"><img src="https://raw.githubusercontent.com/FajarKim/FajarKim/master/images/telegram_logo.png" alt="Telegram" width="35"></a>
     &ensp;
-    <a href="https://www.twitter.com/fajarkim_"><img src="https://raw.githubusercontent.com/FajarKim/FajarKim/master/images/twitter_logo.png" width="35"></a>
+    <a href="https://www.twitter.com/fajarkim_"><img src="https://raw.githubusercontent.com/FajarKim/FajarKim/master/images/twitter_logo.png" alt="Twitter" width="35"></a>
     &ensp;
-    <a href="mailto:fajarrkim@gmail.com"><img src="https://raw.githubusercontent.com/FajarKim/FajarKim/master/images/gmail_logo.png" width="35"></a>
+    <a href="mailto:fajarrkim@gmail.com"><img src="https://raw.githubusercontent.com/FajarKim/FajarKim/master/images/gmail_logo.png" alt="Gmail" width="35"></a>
 </div>
