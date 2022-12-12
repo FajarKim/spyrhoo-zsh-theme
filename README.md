@@ -1,7 +1,7 @@
 ![Spyrhoo Logo](https://raw.githubusercontent.com/FajarKim/spyrhoo-zsh-theme/master/images/logo.png)
 
 # Spyrhoo Zsh Theme
-Jadikan prompt [Oh My Zsh](https://github.com/ohmyzsh/ohmyzsh) Anda lebih kece dan sederhana dengan Spyrhoo Zsh Theme.
+😎 Jadikan prompt [Oh My Zsh](https://github.com/ohmyzsh/ohmyzsh) Anda lebih kece dan sederhana dengan Spyrhoo Zsh Theme.
 
 <div align="center">
     <a href="https://github.com/FajarKim/spyrhoo-zsh-theme"><img src="https://img.shields.io/github/languages/code-size/FajarKim/spyrhoo-zsh-theme?label=Spyrhoo%20Zsh%20Theme&style=plastic&logo=github&color=blue" alt="Spyrhoo Zsh Theme"></a>
