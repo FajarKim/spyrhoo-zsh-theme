@@ -1,8 +1,4 @@
 ![Spyrhoo Logo](https://raw.githubusercontent.com/FajarKim/spyrhoo-zsh-theme/master/images/logo.png)
-
-# Spyrhoo Zsh Theme
-Spyrhoo Zsh Theme는 단순해 보이는 [Oh My Zsh](https://github.com/ohmyzsh/ohmyzsh)용 프롬프트 테마입니다.
-
 <div align="center">
     <a href="https://github.com/FajarKim/spyrhoo-zsh-theme"><img src="https://img.shields.io/github/languages/code-size/FajarKim/spyrhoo-zsh-theme?label=Spyrhoo%20Zsh%20Theme&style=plastic&logo=github&color=blue" alt="Spyrhoo Zsh Theme"></a>
     <a href="https://github.com/FajarKim/spyrhoo-zsh-theme/stargazers/"><img src="https://img.shields.io/github/stars/FajarKim/spyrhoo-zsh-theme?label=Star&style=plastic&color=red" alt="Stars"></a>
@@ -15,13 +11,16 @@ Spyrhoo Zsh Theme는 단순해 보이는 [Oh My Zsh](https://github.com/ohmyzsh/
     <a href=""><img src="https://img.shields.io/github/license/FajarKim/spyrhoo-zsh-theme?label=License&style=plastic&color=01ffc4" alt="License"></a>
 </div>
 
+# Spyrhoo Zsh Theme
+Spyrhoo Zsh Theme [Oh My Zsh](https://github.com/ohmyzsh/ohmyzsh) 프롬프트를 더 시원하고 간단하게 만드십시오.
+
 <details>
 <summary>Show Translations</summary>
 
-- [Indonesian](https://github.com/FajarKim/spyrhoo-zsh-theme)
-- [English](https://github.com/FajarKim/spyrhoo-zsh-theme/blob/master/README-EN.md)
-- [Chinese](https://github.com/FajarKim/spyrhoo-zsh-theme/blob/master/README-CH.md)
-- [French](https://github.com/FajarKim/spyrhoo-zsh-theme/blob/master/README-FR.md)
+- [🇮🇩 Indonesian](https://github.com/FajarKim/spyrhoo-zsh-theme)
+- [🇬🇧 English](https://github.com/FajarKim/spyrhoo-zsh-theme/blob/master/README-EN.md)
+- [🇨🇳 Chinese](https://github.com/FajarKim/spyrhoo-zsh-theme/blob/master/README-CH.md)
+- [🇫🇷 French](https://github.com/FajarKim/spyrhoo-zsh-theme/blob/master/README-FR.md)
 </details>
 
 # 설치 지침
