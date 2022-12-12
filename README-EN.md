@@ -1,7 +1,7 @@
 ![Spyrhoo Logo](https://raw.githubusercontent.com/FajarKim/spyrhoo-zsh-theme/master/images/logo.png)
 
 # Spyrhoo Zsh Theme
-Spyrhoo Zsh Theme is a simple-looking prompt theme for [Oh My Zsh](https://github.com/ohmyzsh/ohmyzsh).
+😎 Make your [Oh My Zsh](https://github.com/ohmyzsh/ohmyzsh) prompt even cooler and simpler with the Spyrhoo Zsh Theme.
 
 <div align="center">
     <a href="https://github.com/FajarKim/spyrhoo-zsh-theme"><img src="https://img.shields.io/github/languages/code-size/FajarKim/spyrhoo-zsh-theme?label=Spyrhoo%20Zsh%20Theme&style=plastic&logo=github&color=blue" alt="Spyrhoo Zsh Theme"></a>
@@ -18,10 +18,10 @@ Spyrhoo Zsh Theme is a simple-looking prompt theme for [Oh My Zsh](https://githu
 <details>
 <summary>Show Translations</summary>
 
-- [Indonesian](https://github.com/FajarKim/spyrhoo-zsh-theme)
-- [Korean](https://github.com/FajarKim/spyrhoo-zsh-theme/blob/master/README-KR.md)
-- [Chinese](https://github.com/FajarKim/spyrhoo-zsh-theme/blob/master/README-CH.md)
-- [French](https://github.com/FajarKim/spyrhoo-zsh-theme/blob/master/README-FR.md)
+- [🇮🇩 Indonesian](https://github.com/FajarKim/spyrhoo-zsh-theme)
+- [🇰🇷 Korean](https://github.com/FajarKim/spyrhoo-zsh-theme/blob/master/README-KR.md)
+- [🇨🇳 Chinese](https://github.com/FajarKim/spyrhoo-zsh-theme/blob/master/README-CH.md)
+- [🇫🇷 French](https://github.com/FajarKim/spyrhoo-zsh-theme/blob/master/README-FR.md)
 </details>
 
 # Installation Instructions
@@ -60,9 +60,14 @@ If successfully installed, then run the `zsh` command.  Then, run the command `o
 Please contact my contact below if there are problems or questions regarding this theme.  Don't forget to follow!
 <div align="center">
     <a href="https://www.facebook.com/profile.php?id=100071979099290"><img src="https://raw.githubusercontent.com/FajarKim/FajarKim/master/images/facebook_logo.png" width="35"></a>
+    &ensp;
     <a href="https://www.instagram.com/fajarkim_"><img src="https://raw.githubusercontent.com/FajarKim/FajarKim/master/images/instagram_logo.png" width="35"></a>
+    &ensp;
     <a href="https://wa.me/6285659850910?text=Hi"><img src="https://raw.githubusercontent.com/FajarKim/FajarKim/master/images/whatsapp_logo.png" width="35"></a>
+    &ensp;
     <a href="https://t.me/FajarThea"><img src="https://raw.githubusercontent.com/FajarKim/FajarKim/master/images/telegram_logo.png" width="35"></a>
+    &ensp;
     <a href="https://www.twitter.com/fajarkim_"><img src="https://raw.githubusercontent.com/FajarKim/FajarKim/master/images/twitter_logo.png" width="35"></a>
+    &ensp;
     <a href="mailto:fajarrkim@gmail.com"><img src="https://raw.githubusercontent.com/FajarKim/FajarKim/master/images/gmail_logo.png" width="35"></a>
 </div>
