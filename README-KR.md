@@ -12,7 +12,7 @@
 </div>
 
 # Spyrhoo Zsh Theme
-Spyrhoo Zsh Theme [Oh My Zsh](https://github.com/ohmyzsh/ohmyzsh) 프롬프트를 더 시원하고 간단하게 만드십시오.
+😎 Spyrhoo Zsh Theme [Oh My Zsh](https://github.com/ohmyzsh/ohmyzsh) 프롬프트를 더 시원하고 간단하게 만드십시오.
 
 <details>
 <summary>Show Translations</summary>
