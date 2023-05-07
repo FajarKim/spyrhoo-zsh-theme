@@ -245,9 +245,11 @@ print_success() {
   printf >&2 '%s\n' "Contact me in:"
   printf >&2 '%s\n' "• Facebook : $(fmt_link 파자르김 https://bit.ly/facebook-fajarkim)"
   printf >&2 '%s\n' "• Instagram: $(fmt_link @fajarkim_ https://instagram.com/fajarkim_)"
+  printf >&2 '%s\n' "             $(fmt_link @fajarhacker_ https://instagram.com/fajarhacker_)"
   printf >&2 '%s\n' "• Twitter  : $(fmt_link @fajarkim_ https://twitter.com/fajarkim_)"
   printf >&2 '%s\n' "• Telegram : $(fmt_link @FajarThea https://t.me/FajarThea)"
   printf >&2 '%s\n' "• WhatsApp : $(fmt_link +6285659850910 https://bit.ly/whatsapp-fajarkim)"
+  printf >&2 '%s\n' "• YouTube  : $(fmt_link 'Fajar Hacker' https://youtube.com/@FajarHacker)"
   printf >&2 '%s\n' "• E-mail   : fajarrkim@gmail.com${RESET}"
 }
 
